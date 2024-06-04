@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .course-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .course-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  .course-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+  }
